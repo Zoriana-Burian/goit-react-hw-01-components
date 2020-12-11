@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+}
+
+.profile {
+ width: 270px;
+ text-align: center;
+ background: #e6e6e6;
+ box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+ 0px 1px 3px rgba(0, 0, 0, 0.12);
+border-radius: 0px 0px 4px 4px;
+}
+
+.description {
+    background:#f2f2f2
+}
+
+.avatar {
+    margin: 0;
+    width: 270px;
+    height: 160px;
+}
+
+.location {
+    margin: 0;
+    color: #8c8c8c;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.name {
+    margin: 0;
+    margin-top: 15px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.tag {
+    margin: 0;
+    margin-top: 15px;
+    color:#8c8c8c;
+
+}
+
+.stats {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   display: flex;
+   justify-content: center;
+}
+.item {
+    width: 270px;
+    padding: 0;
+    border: solid 1px #c2c2a3;;
+}
+
+.label {
+    display: flex;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    color: #8c8c8c;
+    justify-content: space-evenly;
+}
+
+.quantity {
+    display: flex;
+    margin: 0;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+}
